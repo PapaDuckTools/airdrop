@@ -109,7 +109,7 @@ contract Airdrop is Claimable {
     IERC20 public token;
 
     uint256 airDropAmount = 1 * 10**18;
-    uint256 feeAmount = 597500000000000; // 0.0005975 in Wei
+    uint256 feeAmount = 1000000000000000000; // 1 in Wei
 
     mapping(address => bool) public hasClaimed;
 
